@@ -37,48 +37,48 @@
   #error "Turkish needs a graphical display."
 #endif
 
-#define WELCOME_MSG                         MACHINE_NAME _UxGT(" hazır.")                               // hazır.
-#define MSG_SD_INSERTED                     _UxGT("SD Yerleşti.")                                       // SD Yerleşti.
-#define MSG_SD_REMOVED                      _UxGT("SD Çıkarıldı.")                                      // SD Çıkarıldı.
+#define WELCOME_MSG                         MACHINE_NAME _UxGT(" haz谋r.")                               // haz谋r.
+#define MSG_SD_INSERTED                     _UxGT("SD Yerle艧ti.")                                       // SD Yerle艧ti.
+#define MSG_SD_REMOVED                      _UxGT("SD 脟谋kar谋ld谋.")                                      // SD 脟谋kar谋ld谋.
 #define MSG_LCD_ENDSTOPS                    _UxGT("Endstops") // Max length 8 characters                // Endstops
 #define MSG_MAIN                            _UxGT("Ana")                                                // Ana
 #define MSG_BACK                            _UxGT("Geri")                                               // Geri
-#define MSG_AUTOSTART                       _UxGT("Otobaşlat")                                          // Otobaşlat
-#define MSG_DISABLE_STEPPERS                _UxGT("Motorları Durdur")                                   // Motorları Durdur
-#define MSG_DEBUG_MENU                      _UxGT("Hata Ayıklama")                                      // Hata Ayıklama
-#define MSG_PROGRESS_BAR_TEST               _UxGT("Durum Çubuğu Testi")                                 // Durum Çubuğu Testi
-#define MSG_AUTO_HOME                       _UxGT("Eksenleri Sıfırla")                                  // Eksenleri Sıfırla
-#define MSG_AUTO_HOME_X                     _UxGT("X Sıfırla")                                          // X Sıfırla
-#define MSG_AUTO_HOME_Y                     _UxGT("Y Sıfırla")                                          // Y Sıfırla
-#define MSG_AUTO_HOME_Z                     _UxGT("Z Sıfırla")                                          // Z Sıfırla
-#define MSG_LEVEL_BED_HOMING                _UxGT("XYZ Sıfırlanıyor")                                   // XYZ Sıfırlanıyor
-#define MSG_LEVEL_BED_WAITING               _UxGT("Başlatmak için tıkla")                               // Başlatmak için tıkla
-#define MSG_LEVEL_BED_NEXT_POINT            _UxGT("Sıradaki Nokta")                                     // Sıradaki Nokta
+#define MSG_AUTOSTART                       _UxGT("Otoba艧lat")                                          // Otoba艧lat
+#define MSG_DISABLE_STEPPERS                _UxGT("Motorlar谋 Durdur")                                   // Motorlar谋 Durdur
+#define MSG_DEBUG_MENU                      _UxGT("Hata Ay谋klama")                                      // Hata Ay谋klama
+#define MSG_PROGRESS_BAR_TEST               _UxGT("Durum 脟ubu臒u Testi")                                 // Durum 脟ubu臒u Testi
+#define MSG_AUTO_HOME                       _UxGT("Eksenleri S谋f谋rla")                                  // Eksenleri S谋f谋rla
+#define MSG_AUTO_HOME_X                     _UxGT("X S谋f谋rla")                                          // X S谋f谋rla
+#define MSG_AUTO_HOME_Y                     _UxGT("Y S谋f谋rla")                                          // Y S谋f谋rla
+#define MSG_AUTO_HOME_Z                     _UxGT("Z S谋f谋rla")                                          // Z S谋f谋rla
+#define MSG_LEVEL_BED_HOMING                _UxGT("XYZ S谋f谋rlan谋yor")                                   // XYZ S谋f谋rlan谋yor
+#define MSG_LEVEL_BED_WAITING               _UxGT("Ba艧latmak i莽in t谋kla")                               // Ba艧latmak i莽in t谋kla
+#define MSG_LEVEL_BED_NEXT_POINT            _UxGT("S谋radaki Nokta")                                     // S谋radaki Nokta
 #define MSG_LEVEL_BED_DONE                  _UxGT("Seviyeleme Tamam!")                                  // Seviyeleme Tamam!
 #define MSG_SET_HOME_OFFSETS                _UxGT("Offset Ayarla")                                      // Offset Ayarla
 #define MSG_HOME_OFFSETS_APPLIED            _UxGT("Offset Tamam")                                       // Offset Tamam
-#define MSG_SET_ORIGIN                      _UxGT("Sıfır Belirle")                                      // Sıfır Belirle
-#define MSG_PREHEAT_1                       _UxGT("Ön Isınma PLA")                                      // Ön Isınma PLA
+#define MSG_SET_ORIGIN                      _UxGT("S谋f谋r Belirle")                                      // S谋f谋r Belirle
+#define MSG_PREHEAT_1                       _UxGT("脰n Is谋nma PLA")                                      // 脰n Is谋nma PLA
 #define MSG_PREHEAT_1_N                     MSG_PREHEAT_1 _UxGT(" ")                                    //
-#define MSG_PREHEAT_1_ALL                   MSG_PREHEAT_1 _UxGT(" Tüm")                                 //  Tüm
-#define MSG_PREHEAT_1_END                   MSG_PREHEAT_1 _UxGT(" Nozül")                               //  Nozül
+#define MSG_PREHEAT_1_ALL                   MSG_PREHEAT_1 _UxGT(" T眉m")                                 //  T眉m
+#define MSG_PREHEAT_1_END                   MSG_PREHEAT_1 _UxGT(" Noz眉l")                               //  Noz眉l
 #define MSG_PREHEAT_1_BEDONLY               MSG_PREHEAT_1 _UxGT(" Tabla")                               //  Tabla
 #define MSG_PREHEAT_1_SETTINGS              MSG_PREHEAT_1 _UxGT(" Ayar")                                //  Ayar
-#define MSG_PREHEAT_2                       _UxGT("Ön Isınma ABS")                                      // Ön Isınma ABS
+#define MSG_PREHEAT_2                       _UxGT("脰n Is谋nma ABS")                                      // 脰n Is谋nma ABS
 #define MSG_PREHEAT_2_N                     MSG_PREHEAT_2 _UxGT(" ")                                    //
-#define MSG_PREHEAT_2_ALL                   MSG_PREHEAT_2 _UxGT(" Tüm")                                 //  Tüm
-#define MSG_PREHEAT_2_END                   MSG_PREHEAT_2 _UxGT(" Nozül")                               //  Nozül
+#define MSG_PREHEAT_2_ALL                   MSG_PREHEAT_2 _UxGT(" T眉m")                                 //  T眉m
+#define MSG_PREHEAT_2_END                   MSG_PREHEAT_2 _UxGT(" Noz眉l")                               //  Noz眉l
 #define MSG_PREHEAT_2_BEDONLY               MSG_PREHEAT_2 _UxGT(" Tabla")                               //  Tabla
 #define MSG_PREHEAT_2_SETTINGS              MSG_PREHEAT_2 _UxGT(" Ayar")                                //  Ayar
-#define MSG_COOLDOWN                        _UxGT("Soğut")                                              // Soğut
-#define MSG_SWITCH_PS_ON                    _UxGT("Gücü Aç")                                            // Gücü Aç
-#define MSG_SWITCH_PS_OFF                   _UxGT("Gücü Kapat")                                         // Gücü Kapat
+#define MSG_COOLDOWN                        _UxGT("So臒ut")                                              // So臒ut
+#define MSG_SWITCH_PS_ON                    _UxGT("G眉c眉 A莽")                                            // G眉c眉 A莽
+#define MSG_SWITCH_PS_OFF                   _UxGT("G眉c眉 Kapat")                                         // G眉c眉 Kapat
 #define MSG_EXTRUDE                         _UxGT("Extrude")                                            // Extrude
-#define MSG_RETRACT                         _UxGT("Geri Çek")                                           // Geri Çek
-#define MSG_MOVE_AXIS                       _UxGT("Eksen Yönet")                                        // Eksenleri Yönet
+#define MSG_RETRACT                         _UxGT("Geri 脟ek")                                           // Geri 脟ek
+#define MSG_MOVE_AXIS                       _UxGT("Eksen Y枚net")                                        // Eksenleri Y枚net
 #define MSG_BED_LEVELING                    _UxGT("Tabla Seviyele")                                     // Tabla Seviyele
 #define MSG_LEVEL_BED                       _UxGT("Tabla Seviyele")                                     // Tabla Seviyele
-#define MSG_MOVING                          _UxGT("Konumlanıyor...")                                    // Konumlanıyor...
+#define MSG_MOVING                          _UxGT("Konumlan谋yor...")                                    // Konumlan谋yor...
 #define MSG_FREE_XY                         _UxGT("Durdur XY")                                          // Durdur XY
 #define MSG_MOVE_X                          _UxGT("X")                                                  // X
 #define MSG_MOVE_Y                          _UxGT("Y")                                                  // Y
@@ -87,16 +87,16 @@
 #define MSG_MOVE_01MM                       _UxGT("0.1mm")                                              // 0.1mm
 #define MSG_MOVE_1MM                        _UxGT("1mm")                                                // 1mm
 #define MSG_MOVE_10MM                       _UxGT("10mm")                                               // 10mm
-#define MSG_SPEED                           _UxGT("Hız")                                                // Hız
+#define MSG_SPEED                           _UxGT("H谋z")                                                // H谋z
 #define MSG_BED_Z                           _UxGT("Z Mesafesi")                                         // Z Mesafesi
-#define MSG_NOZZLE                          _UxGT("Nozül")                                              // Nozül
+#define MSG_NOZZLE                          _UxGT("Noz眉l")                                              // Noz眉l
 #define MSG_BED                             _UxGT("Tabla")                                              // Tabla
-#define MSG_FAN_SPEED                       _UxGT("Fan Hızı")                                           // Fan Hızı
-#define MSG_FLOW                            _UxGT("Akış")                                               // Akış
+#define MSG_FAN_SPEED                       _UxGT("Fan H谋z谋")                                           // Fan H谋z谋
+#define MSG_FLOW                            _UxGT("Ak谋艧")                                               // Ak谋艧
 #define MSG_CONTROL                         _UxGT("Kontrol")                                            // Kontrol
 #define MSG_MIN                             _UxGT(" ") LCD_STR_THERMOMETER _UxGT(" Min")                //  Min
 #define MSG_MAX                             _UxGT(" ") LCD_STR_THERMOMETER _UxGT(" Max")                //  Max
-#define MSG_FACTOR                          _UxGT(" ") LCD_STR_THERMOMETER _UxGT(" Çarpan")             //  Çarpan
+#define MSG_FACTOR                          _UxGT(" ") LCD_STR_THERMOMETER _UxGT(" 脟arpan")             //  脟arpan
 #define MSG_AUTOTEMP                        _UxGT("Autotemp")                                           //  Autotemp
 #define MSG_ON                              _UxGT("On ")                                                // On
 #define MSG_OFF                             _UxGT("Off")                                                // Off
@@ -104,8 +104,8 @@
 #define MSG_PID_I                           _UxGT("PID-I")                                              // PID-I
 #define MSG_PID_D                           _UxGT("PID-D")                                              // PID-D
 #define MSG_PID_C                           _UxGT("PID-C")                                              // PID-C
-#define MSG_SELECT                          _UxGT("Seç")                                                // Seç
-#define MSG_ACC                             _UxGT("İvme")                                               // İvme
+#define MSG_SELECT                          _UxGT("Se莽")                                                // Se莽
+#define MSG_ACC                             _UxGT("陌vme")                                               // 陌vme
 #define MSG_JERK                            _UxGT("Jerk")
 #define MSG_VX_JERK                         _UxGT("Vx-Jerk")                                            // Vx-Jerk
 #define MSG_VY_JERK                         _UxGT("Vy-Jerk")                                            // Vy-Jerk
@@ -127,143 +127,144 @@
 #define MSG_E3STEPS                         _UxGT("E3steps/mm")                                         // E3steps/mm
 #define MSG_E4STEPS                         _UxGT("E4steps/mm")                                         // E4steps/mm
 #define MSG_E5STEPS                         _UxGT("E5steps/mm")                                         // E4steps/mm
-#define MSG_TEMPERATURE                     _UxGT("Sıcaklık")                                           // Sıcaklık
+#define MSG_TEMPERATURE                     _UxGT("S谋cakl谋k")                                           // S谋cakl谋k
 #define MSG_MOTION                          _UxGT("Hareket")                                            // Hareket
 #define MSG_FILAMENT                        _UxGT("Filaman")                                            // Filaman
 #define MSG_VOLUMETRIC_ENABLED              _UxGT("E in mm3")                                           // E in mm3
-#define MSG_FILAMENT_DIAM                   _UxGT("Fil. Çap")                                           // Fil. Çap
-#define MSG_ADVANCE_K                       _UxGT("K İlerlet")                                          // K İlerlet
+#define MSG_FILAMENT_DIAM                   _UxGT("Fil. 脟ap")                                           // Fil. 脟ap
+#define MSG_ADVANCE_K                       _UxGT("K 陌lerlet")                                          // K 陌lerlet
 #define MSG_CONTRAST                        _UxGT("LCD Kontrast")                                       // LCD Kontrast
-#define MSG_STORE_EEPROM                    _UxGT("Hafızaya Al")                                        // Hafızaya Al
-#define MSG_LOAD_EEPROM                     _UxGT("Hafızadan Yükle")                                    // Hafızadan Yükle
-#define MSG_RESTORE_FAILSAFE                _UxGT("Fabrika Ayarları")                                   // Fabrika Ayarları
+#define MSG_STORE_EEPROM                    _UxGT("Haf谋zaya Al")                                        // Haf谋zaya Al
+#define MSG_LOAD_EEPROM                     _UxGT("Haf谋zadan Y眉kle")                                    // Haf谋zadan Y眉kle
+#define MSG_RESTORE_FAILSAFE                _UxGT("Fabrika Ayarlar谋")                                   // Fabrika Ayarlar谋
 #define MSG_REFRESH                         _UxGT("Yenile")                                             // Yenile
-#define MSG_WATCH                           _UxGT("Bilgi Ekranı")                                       // Bilgi Ekranı
-#define MSG_PREPARE                         _UxGT("Hazırlık")                                           // Hazırlık
+#define MSG_WATCH                           _UxGT("Bilgi Ekran谋")                                       // Bilgi Ekran谋
+#define MSG_PREPARE                         _UxGT("Haz谋rl谋k")                                           // Haz谋rl谋k
 #define MSG_TUNE                            _UxGT("Ayar")                                               // Ayar
 #define MSG_PAUSE_PRINT                     _UxGT("Duraklat")                                           // Duraklat
-#define MSG_RESUME_PRINT                    _UxGT("Sürdür")                                             // Sürdür
+#define MSG_RESUME_PRINT                    _UxGT("S眉rd眉r")                                             // S眉rd眉r
 #define MSG_STOP_PRINT                      _UxGT("Durdur")                                             // Durdur
-#define MSG_CARD_MENU                       _UxGT("SD den Yazdır")                                      // SD den Yazdır
+#define MSG_CARD_MENU                       _UxGT("SD den Yazd谋r")                                      // SD den Yazd谋r
 #define MSG_NO_CARD                         _UxGT("SD Kart Yok")                                        // SD Kart Yok
 #define MSG_DWELL                           _UxGT("Uyku...")                                            // Uyku...
-#define MSG_USERWAIT                        _UxGT("Operatör bekleniyor...")                             // Operatör bekleniyor...
-#define MSG_RESUMING                        _UxGT("Baskı Sürdürülüyor")                                 // Baskı Sürdürülüyor
-#define MSG_PRINT_ABORTED                   _UxGT("Baskı Durduruldu")                                   // Baskı Durduruldu
-#define MSG_NO_MOVE                         _UxGT("İşlem yok.")                                         // İşlem yok.
+#define MSG_USERWAIT                        _UxGT("Operat枚r bekleniyor...")                             // Operat枚r bekleniyor...
+#define MSG_RESUMING                        _UxGT("Bask谋 S眉rd眉r眉l眉yor")                                 // Bask谋 S眉rd眉r眉l眉yor
+#define MSG_PRINT_ABORTED                   _UxGT("Bask谋 Durduruldu")                                   // Bask谋 Durduruldu
+#define MSG_NO_MOVE                         _UxGT("陌艧lem yok.")                                         // 陌艧lem yok.
 #define MSG_KILLED                          _UxGT("Kilitlendi. ")                                       // Kilitlendi.
 #define MSG_STOPPED                         _UxGT("Durdu. ")                                            // Durdu.
-#define MSG_CONTROL_RETRACT                 _UxGT("Geri Çek mm")                                        // Geri Çek mm
+#define MSG_CONTROL_RETRACT                 _UxGT("Geri 脟ek mm")                                        // Geri 脟ek mm
 #define MSG_CONTROL_RETRACT_SWAP            _UxGT("Swap Re.mm")                                         // Swap Re.mm
-#define MSG_CONTROL_RETRACTF                _UxGT("Geri Çekme  V")                                      // Geri Çekme V
+#define MSG_CONTROL_RETRACTF                _UxGT("Geri 脟ekme  V")                                      // Geri 脟ekme V
 #define MSG_CONTROL_RETRACT_ZLIFT           _UxGT("Hop mm")                                             // Hop mm
 #define MSG_CONTROL_RETRACT_RECOVER         _UxGT("UnRet mm")                                           // UnRet mm
 #define MSG_CONTROL_RETRACT_RECOVER_SWAP    _UxGT("S UnRet mm")                                         // S UnRetmm
 #define MSG_CONTROL_RETRACT_RECOVERF        _UxGT("UnRet  V")                                           // UnRet V
 #define MSG_AUTORETRACT                     _UxGT("AutoRetr.")                                          // AutoRetr.
-#define MSG_FILAMENTCHANGE                  _UxGT("Filaman Değiştir")                                   // Filaman Değiştir
+#define MSG_FILAMENTCHANGE                  _UxGT("Filaman De臒i艧tir")                                   // Filaman De臒i艧tir
 #define MSG_INIT_SDCARD                     _UxGT("Init. SD")                                           // Init. SD
-#define MSG_CNG_SDCARD                      _UxGT("SD Değiştir")                                        // SD Değiştir
-#define MSG_ZPROBE_OUT                      _UxGT("Z Prob Açık. Tabla")                                 // Z Prob Açık. Tabla
+#define MSG_CNG_SDCARD                      _UxGT("SD De臒i艧tir")                                        // SD De臒i艧tir
+#define MSG_ZPROBE_OUT                      _UxGT("Z Prob A莽谋k. Tabla")                                 // Z Prob A莽谋k. Tabla
 #define MSG_BLTOUCH_SELFTEST                _UxGT("BLTouch Self-Test")                                  // BLTouch Self-Test
-#define MSG_BLTOUCH_RESET                   _UxGT("Sıfırla BLTouch")                                    // Sıfırla BLTouch
-#define MSG_HOME                            _UxGT("Sıfırla")                                            // Sıfırla
-#define MSG_FIRST                           _UxGT("önce")                                               // Önce
+#define MSG_BLTOUCH_RESET                   _UxGT("S谋f谋rla BLTouch")                                    // S谋f谋rla BLTouch
+#define MSG_HOME                            _UxGT("S谋f谋rla")                                            // S谋f谋rla
+#define MSG_FIRST                           _UxGT("枚nce")                                               // 脰nce
 #define MSG_ZPROBE_ZOFFSET                  _UxGT("Z Offset")                                           // Z Offset
-#define MSG_BABYSTEP_X                      _UxGT("Miniadım X")                                         // Miniadım X
-#define MSG_BABYSTEP_Y                      _UxGT("Miniadım Y")                                         // Miniadım Y
-#define MSG_BABYSTEP_Z                      _UxGT("Miniadım Z")                                         // Miniadım Z
+#define MSG_BABYSTEP_X                      _UxGT("Miniad谋m X")                                         // Miniad谋m X
+#define MSG_BABYSTEP_Y                      _UxGT("Miniad谋m Y")                                         // Miniad谋m Y
+#define MSG_BABYSTEP_Z                      _UxGT("Miniad谋m Z")                                         // Miniad谋m Z
 #define MSG_ENDSTOP_ABORT                   _UxGT("Endstop iptal")                                      // Endstop iptal
-#define MSG_HEATING_FAILED_LCD              _UxGT("Isınma başarısız")                                   // Isınma başarısız
-#define MSG_ERR_REDUNDANT_TEMP              _UxGT("Hata: Geçersiz Sıcaklık")                            // Hata: Geçersiz Sıcaklık
+#define MSG_HEATING_FAILED_LCD              _UxGT("Is谋nma ba艧ar谋s谋z")                                   // Is谋nma ba艧ar谋s谋z
+#define MSG_ERR_REDUNDANT_TEMP              _UxGT("Hata: Ge莽ersiz S谋cakl谋k")                            // Hata: Ge莽ersiz S谋cakl谋k
 #define MSG_THERMAL_RUNAWAY                 _UxGT("TERMAL PROBLEM")                                     // TERMAL PROBLEM
 #define MSG_ERR_MAXTEMP                     _UxGT("Hata: MAXSICAKLIK")                                  // Hata: MAXSICAKLIK
 #define MSG_ERR_MINTEMP                     _UxGT("Hata: MINSICAKLIK")                                  // Hata: MINSICAKLIK
 #define MSG_ERR_MAXTEMP_BED                 _UxGT("Hata: MAXSIC. TABLA")                                // Hata: MAXSIC. TABLA
 #define MSG_ERR_MINTEMP_BED                 _UxGT("Hata: MINSIC. TABLA")                                // Hata: MINSIC. TABLA
-#define MSG_ERR_Z_HOMING                    _UxGT("G28 Z Yapılamaz")                                    // G28 Z Yapılamaz
+#define MSG_ERR_Z_HOMING                    _UxGT("G28 Z Yap谋lamaz")                                    // G28 Z Yap谋lamaz
 #define MSG_HALTED                          _UxGT("YAZICI DURDURULDU")                                  // YAZICI DURDURULDU
-#define MSG_PLEASE_RESET                    _UxGT("Lütfen resetleyin")                                  // Lütfen resetleyin
+#define MSG_PLEASE_RESET                    _UxGT("L眉tfen resetleyin")                                  // L眉tfen resetleyin
 #define MSG_SHORT_DAY                       _UxGT("G") // One character only                            // G
 #define MSG_SHORT_HOUR                      _UxGT("S") // One character only                            // S
 #define MSG_SHORT_MINUTE                    _UxGT("D") // One character only                            // D
-#define MSG_HEATING                         _UxGT("Isınıyor...")                                        // Isınıyor...
-#define MSG_HEATING_COMPLETE                _UxGT("Isınma tamam.")                                      // Isınma tamam.
-#define MSG_BED_HEATING                     _UxGT("Tabla Isınıyor.")                                    // Tabla Isınıyor.
-#define MSG_BED_DONE                        _UxGT("Tabla hazır.")                                       // Tabla hazır.
+#define MSG_HEATING                         _UxGT("Is谋n谋yor...")                                        // Is谋n谋yor...
+#define MSG_HEATING_COMPLETE                _UxGT("Is谋nma tamam.")                                      // Is谋nma tamam.
+#define MSG_BED_HEATING                     _UxGT("Tabla Is谋n谋yor.")                                    // Tabla Is谋n谋yor.
+#define MSG_BED_DONE                        _UxGT("Tabla haz谋r.")                                       // Tabla haz谋r.
 #define MSG_DELTA_CALIBRATE                 _UxGT("Delta Kalibrasyonu")                                 // Delta Kalibrasyonu
 #define MSG_DELTA_CALIBRATE_X               _UxGT("Ayarla X")                                           // Ayarla X
 #define MSG_DELTA_CALIBRATE_Y               _UxGT("Ayarla Y")                                           // Ayarla Y
 #define MSG_DELTA_CALIBRATE_Z               _UxGT("Ayarla Z")                                           // Ayarla Z
 #define MSG_DELTA_CALIBRATE_CENTER          _UxGT("Ayarla Merkez")                                      // Ayarla Merkez
 #define MSG_DELTA_AUTO_CALIBRATE            _UxGT("Oto Kalibrasyon")                                    // Oto Kalibrasyon
-#define MSG_DELTA_HEIGHT_CALIBRATE          _UxGT("Delta Yük. Ayarla")                                  // Delta Yük. Ayarla
-#define MSG_INFO_MENU                       _UxGT("Yazıcı Hakkında")                                    // Yazıcı Hakkında
-#define MSG_INFO_PRINTER_MENU               _UxGT("Yazıcı Bilgisi")                                     // Yazıcı Bilgisi
-#define MSG_INFO_STATS_MENU                 _UxGT("İstatistikler")                                      // İstatistikler
-#define MSG_INFO_BOARD_MENU                 _UxGT("Kontrolör Bilgisi")                                  // Kontrol Bilgisi
-#define MSG_INFO_THERMISTOR_MENU            _UxGT("Termistörler")                                       // Termistörler
+#define MSG_DELTA_HEIGHT_CALIBRATE          _UxGT("Delta Y眉k. Ayarla")                                  // Delta Y眉k. Ayarla
+#define MSG_INFO_MENU                       _UxGT("Yaz谋c谋 Hakk谋nda")                                    // Yaz谋c谋 Hakk谋nda
+#define MSG_INFO_PRINTER_MENU               _UxGT("Yaz谋c谋 Bilgisi")                                     // Yaz谋c谋 Bilgisi
+#define MSG_INFO_STATS_MENU                 _UxGT("陌statistikler")                                      // 陌statistikler
+#define MSG_INFO_BOARD_MENU                 _UxGT("Kontrol枚r Bilgisi")                                  // Kontrol Bilgisi
+#define MSG_INFO_THERMISTOR_MENU            _UxGT("Termist枚rler")                                       // Termist枚rler
 #define MSG_INFO_EXTRUDERS                  _UxGT("Ekstruderler")                                       // Ekstruderler
-#define MSG_INFO_BAUDRATE                   _UxGT("İletişim Hızı")                                      // İletişim Hızı
+#define MSG_INFO_BAUDRATE                   _UxGT("陌leti艧im H谋z谋")                                      // 陌leti艧im H谋z谋
 #define MSG_INFO_PROTOCOL                   _UxGT("Protokol")                                           // Protokol
-#define MSG_CASE_LIGHT                      _UxGT("Aydınlatmayı")                                       // Aydınlatmayı Aç
+#define MSG_CASE_LIGHT                      _UxGT("Ayd谋nlatmay谋")                                       // Ayd谋nlatmay谋 A莽
 
 #if LCD_WIDTH >= 20
-  #define MSG_INFO_PRINT_COUNT              _UxGT("Baskı Sayısı")                                       // Baskı Sayısı
+  #define MSG_INFO_PRINT_COUNT              _UxGT("Bask谋 Say谋s谋")                                       // Bask谋 Say谋s谋
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Tamamlanan")                                         // Tamamlanan
-  #define MSG_INFO_PRINT_TIME               _UxGT("Toplam Baskı Süresi")                                // Toplam Baskı Süresi
-  #define MSG_INFO_PRINT_LONGEST            _UxGT("En Uzun Baskı Süresi")                               // En Uzun Baskı Süresi
+  #define MSG_INFO_PRINT_TIME               _UxGT("Toplam Bask谋 S眉resi")                                // Toplam Bask谋 S眉resi
+  #define MSG_INFO_PRINT_LONGEST            _UxGT("En Uzun Bask谋 S眉resi")                               // En Uzun Bask谋 S眉resi
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Toplam Filaman")                                     // Toplam Filaman
 #else
-  #define MSG_INFO_PRINT_COUNT              _UxGT("Baskı")                                              // Baskı
+  #define MSG_INFO_PRINT_COUNT              _UxGT("Bask谋")                                              // Bask谋
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Tamamlanan")                                         // Tamamlanan
-  #define MSG_INFO_PRINT_TIME               _UxGT("Süre")                                               // Süre
+  #define MSG_INFO_PRINT_TIME               _UxGT("S眉re")                                               // S眉re
   #define MSG_INFO_PRINT_LONGEST            _UxGT("En Uzun")                                            // En Uzun
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Filaman")                                            // Filaman
 #endif
 
-#define MSG_INFO_MIN_TEMP                   _UxGT("Min Sıc.")                                           // Min Sıcak.
-#define MSG_INFO_MAX_TEMP                   _UxGT("Max Sıc.")                                           // Max Sıcak.
-#define MSG_INFO_PSU                        _UxGT("Güç Kaynağı")                                        // Güç Kaynağı
+#define MSG_INFO_MIN_TEMP                   _UxGT("Min S谋c.")                                           // Min S谋cak.
+#define MSG_INFO_MAX_TEMP                   _UxGT("Max S谋c.")                                           // Max S谋cak.
+#define MSG_INFO_PSU                        _UxGT("G眉莽 Kayna臒谋")                                        // G眉莽 Kayna臒谋
 
-#define MSG_DRIVE_STRENGTH                  _UxGT("Sürücü Gücü")                                        // Sürücü Gücü
-#define MSG_DAC_PERCENT                     _UxGT("Sürücü %")                                           // Sürücü %
+#define MSG_DRIVE_STRENGTH                  _UxGT("S眉r眉c眉 G眉c眉")                                        // S眉r眉c眉 G眉c眉
+#define MSG_DAC_PERCENT                     _UxGT("S眉r眉c眉 %")                                           // S眉r眉c眉 %
 #define MSG_FILAMENT_CHANGE_HEADER          _UxGT("PRINT PAUSED")
 #define MSG_FILAMENT_CHANGE_OPTION_HEADER   _UxGT("RESUME OPTIONS:")
-#define MSG_FILAMENT_CHANGE_OPTION_HEADER   _UxGT("Seçenekler:")                                        // Seçenekler:
-#define MSG_FILAMENT_CHANGE_OPTION_EXTRUDE  _UxGT("Daha Akıt")                                          // Daha Akıt
-#define MSG_FILAMENT_CHANGE_OPTION_RESUME   _UxGT("Baskıyı sürdür")                                     // Baskıyı sürdür
-#define MSG_FILAMENT_CHANGE_MINTEMP         _UxGT("Min. Sıcaklık")                                      // Min. Sıcaklık:
-#define MSG_FILAMENT_CHANGE_NOZZLE          _UxGT("  Nozül: ")                                          //   Nozül:
+#define MSG_FILAMENT_CHANGE_OPTION_HEADER   _UxGT("Se莽enekler:")                                        // Se莽enekler:
+#define MSG_FILAMENT_CHANGE_OPTION_EXTRUDE  _UxGT("Daha Ak谋t")                                          // Daha Ak谋t
+#define MSG_FILAMENT_CHANGE_OPTION_RESUME   _UxGT("Bask谋y谋 s眉rd眉r")                                     // Bask谋y谋 s眉rd眉r
+#define MSG_FILAMENT_CHANGE_MINTEMP         _UxGT("Min. S谋cakl谋k")                                      // Min. S谋cakl谋k:
+#define MSG_FILAMENT_CHANGE_NOZZLE          _UxGT("  Noz眉l: ")                                          //   Noz眉l:
 
 #if LCD_HEIGHT >= 4
   // Up to 3 lines allowed
-  #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Başlama bekleniyor")                               // Başlama bekleniyor
-  #define MSG_FILAMENT_CHANGE_INIT_2          _UxGT("filamanın")                                        // filamanın
-  #define MSG_FILAMENT_CHANGE_INIT_3          _UxGT("değişimi")                                         // değişimi
+  #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Ba艧lama bekleniyor")                               // Ba艧lama bekleniyor
+  #define MSG_FILAMENT_CHANGE_INIT_2          _UxGT("filaman谋n")                                        // filaman谋n
+  #define MSG_FILAMENT_CHANGE_INIT_3          _UxGT("de臒i艧imi")                                         // de臒i艧imi
   #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Bekleniyor")                                       // Bekleniyor
-  #define MSG_FILAMENT_CHANGE_UNLOAD_2        _UxGT("filamanın çıkması")                                // filamanın çıkması
-  #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Filamanı yükle")                                   // Filamanı yükle
-  #define MSG_FILAMENT_CHANGE_INSERT_2        _UxGT("ve devam için")                                    // ve devam için
-  #define MSG_FILAMENT_CHANGE_INSERT_3        _UxGT("tuşa bas...")                                      // tuşa bas...
-  #define MSG_FILAMENT_CHANGE_HEAT_1          _UxGT("Nozülü Isıtmak için")                              // Nozülü Isıtmak için
+  #define MSG_FILAMENT_CHANGE_UNLOAD_2        _UxGT("filaman谋n 莽谋kmas谋")                                // filaman谋n 莽谋kmas谋
+  #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Filaman谋 y眉kle")                                   // Filaman谋 y眉kle
+  #define MSG_FILAMENT_CHANGE_INSERT_2        _UxGT("ve devam i莽in")                                    // ve devam i莽in
+  #define MSG_FILAMENT_CHANGE_INSERT_3        _UxGT("tu艧a bas...")                                      // tu艧a bas...
+  #define MSG_FILAMENT_CHANGE_HEAT_1          _UxGT("Noz眉l眉 Is谋tmak i莽in")                              // Noz眉l眉 Is谋tmak i莽in
   #define MSG_FILAMENT_CHANGE_HEAT_2          _UxGT("Butona Bas.")                                      // Butona Bas.
-  #define MSG_FILAMENT_CHANGE_HEATING_1       _UxGT("Nozül Isınıyor")                                   // Nozül Isınıyor
-  #define MSG_FILAMENT_CHANGE_HEATING_2       _UxGT("Lütfen Bekleyin...")                               // Lütfen Bekleyin...
+  #define MSG_FILAMENT_CHANGE_HEATING_1       _UxGT("Noz眉l Is谋n谋yor")                                   // Noz眉l Is谋n谋yor
+  #define MSG_FILAMENT_CHANGE_HEATING_2       _UxGT("L眉tfen Bekleyin...")                               // L眉tfen Bekleyin...
   #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Bekleniyor")                                       // Bekleniyor
-  #define MSG_FILAMENT_CHANGE_LOAD_2          _UxGT("filamanın yüklenmesi")                             // filamanın yüklenmesi
+  #define MSG_FILAMENT_CHANGE_LOAD_2          _UxGT("filaman谋n y眉klenmesi")                             // filaman谋n y眉klenmesi
   #define MSG_FILAMENT_CHANGE_EXTRUDE_1       _UxGT("Bekleniyor")                                       // Bekleniyor
-  #define MSG_FILAMENT_CHANGE_EXTRUDE_2       _UxGT("filaman akması")                                   // filaman akması
-  #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Baskının sürdürülmesini")                          // Baskının sürdürülmesini
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_2       _UxGT("filaman akmas谋")                                   // filaman akmas谋
+  #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Bask谋n谋n s眉rd眉r眉lmesini")                          // Bask谋n谋n s眉rd眉r眉lmesini
   #define MSG_FILAMENT_CHANGE_RESUME_2        _UxGT("bekle")                                            // bekle
 #else // LCD_HEIGHT < 4
   // Up to 2 lines allowed
-  #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Lütfen bekleyiniz...")                             // Lütfen bekleyiniz...
-  #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("Çıkartılıyor...")                                  // Çıkartılıyor...
-  #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Yükle ve bas")                                     // Yükle ve bas
-  #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Yüklüyor...")                                      // Yüklüyor...
-  #define MSG_FILAMENT_CHANGE_EXTRUDE_1       _UxGT("Akıtılıyor...")                                    // Akıtılıyor...
-  #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Sürdürülüyor...")                                  // Sürdürülüyor...
+  #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("L眉tfen bekleyiniz...")                             // L眉tfen bekleyiniz...
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1        _UxGT("脟谋kart谋l谋yor...")                                  // 脟谋kart谋l谋yor...
+  #define MSG_FILAMENT_CHANGE_INSERT_1        _UxGT("Y眉kle ve bas")                                     // Y眉kle ve bas
+  #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Y眉kl眉yor...")                                      // Y眉kl眉yor...
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_1       _UxGT("Ak谋t谋l谋yor...")                                    // Ak谋t谋l谋yor...
+  #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("S眉rd眉r眉l眉yor...")                                  // S眉rd眉r眉l眉yor...
 #endif // LCD_HEIGHT < 4
 
 #endif // LANGUAGE_TR_H
+
